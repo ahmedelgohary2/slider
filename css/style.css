@@ -1,0 +1,76 @@
+
+#carouselExampleIndicators{
+  background-color:black;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  width: 40rem;
+  height: 15rem;
+
+}
+.test-img{
+    vertical-align: middle;
+    display: block;
+    margin: 2% auto ;
+    border-style: none;
+    width: 50rem;
+    height: 18rem;
+  }
+.menu{
+  width: 20rem;
+  padding-right: 0;
+  float: right;
+  text-align: right;
+}
+.nav {
+  border-radius:0;
+}
+.nav-link{background: black ; color: #fff;border-bottom: 1px}
+.active{
+  background: yellow:
+}
+
+.container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+  float: left;
+}
+.tz-gallery {
+  padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+  width: 70%;
+  height: 195px;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+  border-radius: 4px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.gallery-container {
+      border-radius: 0;
+  }
+}
